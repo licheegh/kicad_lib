@@ -10,6 +10,16 @@ D 4 pin oscillators TCXO XO
 K TCXO XO
 $ENDCMP
 #
+$CMP 7-SEGMENT-4DIG-CLOCK
+D 4 x 7-segment common cat display for clock w/ dp
+K 7 SEGMENTS 4 display
+$ENDCMP
+#
+$CMP 7-SEGMENT-4DIG-CLOCK-NODP
+D 4 x 7-segment common cat display for clock
+K 7 SEGMENTS 4 display
+$ENDCMP
+#
 $CMP 74xxx1T45
 D Single-Bit Dual-Supply Bus Transceiver With Configurable Voltage Translation and 3-State Outputs
 K Voltage Translator
@@ -20,9 +30,13 @@ D 14(12)-Bit, 20 MSPS/40 MSPS/65 MSPS Dual ADC
 K ADC
 $ENDCMP
 #
-$CMP DUAL_POT_WITH_SHIELD
+$CMP Dual_Pot_With_Shield
 D Potentionmetre
 K R
+$ENDCMP
+#
+$CMP Encoder_with_swith
+D Encoder with switch
 $ENDCMP
 #
 $CMP General_SOT223_LDO
@@ -61,6 +75,10 @@ $CMP PT2559
 D Side Face Silicon Phototransistor
 $ENDCMP
 #
+$CMP SC8035
+D Voice play ic found on taobao
+$ENDCMP
+#
 $CMP SN74LVC2G14
 D Dual Schmitt-Trigger Inverter
 $ENDCMP
@@ -68,6 +86,14 @@ $ENDCMP
 $CMP TDA2822M
 D DUAL LOW-VOLTAGE POWER AMPLIFIER
 K AMPLIFIER
+$ENDCMP
+#
+$CMP TM1650
+D 7 seg driver with keyboard scan no dp
+$ENDCMP
+#
+$CMP TM1651
+D 7 seg driver with keyboard scan
 $ENDCMP
 #
 $CMP UDA1334x
