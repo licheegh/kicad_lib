@@ -79,6 +79,10 @@ $CMP SC8035
 D Voice play ic found on taobao
 $ENDCMP
 #
+$CMP SMx5xRx
+D Magnetoresistive Sensor ICs Standard Power Series: SM351RT, SM451R, SM353RT, SM453R
+$ENDCMP
+#
 $CMP SN74LVC2G14
 D Dual Schmitt-Trigger Inverter
 $ENDCMP
