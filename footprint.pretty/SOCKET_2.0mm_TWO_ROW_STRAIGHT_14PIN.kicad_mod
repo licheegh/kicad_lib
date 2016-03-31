@@ -1,4 +1,4 @@
-(module SOCKET_2.0mm_TWO_ROW_14PIN (layer F.Cu) (tedit 56A06466)
+(module SOCKET_2.0mm_TWO_ROW_STRAIGHT_14PIN (layer F.Cu) (tedit 56A06466)
   (fp_text reference REF** (at -9.2 0 90) (layer F.SilkS)
     (effects (font (size 1.2 1.2) (thickness 0.15)))
   )

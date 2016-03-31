@@ -1,4 +1,4 @@
-(module SOCKET_2.0mm_2pin (layer F.Cu) (tedit 56A0B49B)
+(module SOCKET_1.5mm_SMT_Right_Angle_2pin (layer F.Cu) (tedit 56A0B49B)
   (fp_text reference REF** (at 3 3) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
