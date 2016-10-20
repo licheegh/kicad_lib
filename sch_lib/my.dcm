@@ -49,6 +49,10 @@ D General SOT23-5 LDO
 K General SOT23-5 LDO
 $ENDCMP
 #
+$CMP ITR8307
+D light reflection switch
+$ENDCMP
+#
 $CMP JACK_TRS_5PINS
 D audio jack TRS 5 pins
 K audio jack connector TRS
