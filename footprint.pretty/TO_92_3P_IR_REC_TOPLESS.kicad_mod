@@ -1,4 +1,4 @@
-(module TO_92_3P_IR_REC (layer F.Cu) (tedit 583E35B0)
+(module TO_92_3P_IR_REC_TOPLESS (layer F.Cu) (tedit 583E65E4)
   (descr "TO-92 leads in-line, wide, drill 0.8mm (see NXP sot054_po.pdf)")
   (tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
   (fp_text reference U1 (at 1.75 -2.5 180) (layer F.SilkS)
@@ -16,9 +16,9 @@
   (fp_line (start -2.5 -1.5) (end 2.5 -1.5) (layer F.SilkS) (width 0.15))
   (fp_line (start -2.5 -1.25) (end 2.5 -1.25) (layer F.SilkS) (width 0.15))
   (fp_line (start -2.5 1.25) (end 2.5 1.25) (layer F.SilkS) (width 0.15))
-  (pad 1 thru_hole oval (at -2.54 0 90) (size 1.4 1) (drill 0.8) (layers *.Cu *.Mask))
+  (pad 2 thru_hole oval (at 0 0 90) (size 1.4 1) (drill 0.8) (layers *.Mask B.Cu))
   (pad 3 thru_hole oval (at 2.54 0 90) (size 1.4 1) (drill 0.8) (layers *.Cu *.Mask))
-  (pad 2 thru_hole oval (at 0 0 90) (size 1.6 0.8) (drill 0.8) (layers *.Cu *.Mask))
+  (pad 1 thru_hole oval (at -2.54 0 90) (size 1.4 1) (drill 0.8) (layers *.Cu *.Mask))
   (model Housings_TO-92.3dshapes/TO-92_Inline_Wide.wrl
     (at (xyz 0.1 0 0))
     (scale (xyz 1 1 1))
